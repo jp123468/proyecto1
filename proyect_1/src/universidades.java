@@ -1,10 +1,13 @@
 public class universidades {
 
+    //ATTRIBUTES
 
     int aulas ;
     String color ;
     int anio ;
     int n_estudiantes ;
+
+    //CONSTRUCTOR
 
     public universidades(){
          aulas=100  ;
@@ -12,6 +15,23 @@ public class universidades {
          anio = 1978;
          n_estudiantes = 1000;
     }
+
+    //METHODS
+    public void estudiar(){
+
+    }
+
+    public void Tomar(){
+
+    }
+    public void Jugar(){
+
+    }
+    public void Conversar(){
+        
+    }
+
+    //GETTERS AND SETTERS
 
     public int getAulas() {
         return aulas;
